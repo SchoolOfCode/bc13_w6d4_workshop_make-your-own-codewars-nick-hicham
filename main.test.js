@@ -4,21 +4,21 @@ import { test, expect } from "@jest/globals";
 
 //test1.
 test("Check if position returned is correct", () => {
-  const actual = findPyjamas(["cosks", "ath", "ckjtae", "saamypj", "olgevs"]);
+  const actual = findPyjamas(["xerbso", "cosks", "ath", "ckjtae", "saamypj", "olgevs"]);
   const expected = 3;
   expect(actual).toBe(expected);
 });
 
 //test2.
 test("check if a different position is correct", () => {
-  const actual = findPyjamas(["cosks", "ath", "ckjtae", "olgevs", "saamypj"]);
+  const actual = findPyjamas(["cosks","xerbso", "ath", "ckjtae", "olgevs", "saamypj"]);
   const expected = 4;
   expect(actual).toBe(expected);
 });
 
 //test3.
 test("check a number is returned", () => {
-  const actual = findPyjamas(["cosks", "ath", "ckjtae", "olgevs", "saamypj"]);
+  const actual = findPyjamas(["cosks", "ath", "ckjtae","xerbso", "olgevs", "saamypj"]);
   const expected = "number";
   expect(typeof actual).toBe(expected);
 });
