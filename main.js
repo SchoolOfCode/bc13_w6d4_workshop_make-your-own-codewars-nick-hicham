@@ -9,3 +9,7 @@
 export function findPyjamas(arr) {
   //CODE GOES HERE
 }
+
+//EXAMPLE ['ptsna', 'pmjyaas', 'trish'] ========>>> solution is 1
+
+//EXAMPLE ['umperj', 'ptsna', 'strosh', 'pmjyaas', 'trish'] ========>>> solution is 3
