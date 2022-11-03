@@ -1,23 +1,11 @@
-/* 
-👉 Write your kata here!
-*/
-//Ive lost my pyjamas
-//array of strings of anagrams of different types of clothes and you have to return "pyjamas"
-//The challenge is to return the position of the array that contains the string pyjamas
-//Asnwer must be a number
+//Ive lost my pyjamas!
+//I live in an array and in one of the room i left my pyjamas!
+//Also I'm a bit of a slob so everything is messy and all jumbled up...
+//Can you please help me find them?
+
+//Find the index in the array that has an anagram of the word 'pyjamas' and return that number!
 
 //👉 Write the function your CodeWarriors will start with below here:
 export function findPyjamas(arr) {
-  //   let wordReg = null;
-  for (let i = 0; i < arr.length; i++) {
-    // console.log((arr[i].match(/[pyjamas]/g) || []).length);
-    if ((arr[i].match(/[pyjamas]/g) || []).length === arr[i].length) {
-      return i;
-    }
-  }
-
   //CODE GOES HERE
 }
-
-// console.log(findPyjamas(["cosks", "ath", "ckjtae", "saamypj", "olgevs"]));
-// ;
